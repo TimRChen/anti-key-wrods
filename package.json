@@ -1,0 +1,23 @@
+{
+  "name": "anti-key-words",
+  "version": "1.0.0",
+  "description": "A TS File to Anti any Dirty Words.",
+  "main": "index.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.102"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimRChen/anti-key-wrods.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimRChen/anti-key-wrods/issues"
+  },
+  "homepage": "https://github.com/TimRChen/anti-key-wrods#readme"
+}

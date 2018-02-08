@@ -1,2 +1,3 @@
-# anti-key-wrods
-A TS File to Anti any Dirty Words.
+# anti-key-words
+To Anti any Dirty Words(zh).
+
