@@ -7,7 +7,9 @@
 const keywordsConfig = require("../config/keywords.json");
 /**
  * @class anti key words class.
+ * @param {String} asterisk
  * @param {String} inputString
+ * @param {String} outputString
  */
 class AntiKeyWords {
     constructor(inWords) {

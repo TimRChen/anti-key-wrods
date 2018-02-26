@@ -11,25 +11,27 @@ const keywordsConfig = require("../config/keywords.json");
 
 /** 
  * @class anti key words class.
+ * @param {String} asterisk
  * @param {String} inputString
+ * @param {String} outputString
  */
 class AntiKeyWords {
-    public asterisk: String = "**";
-    public inputString: String;
-    public outputString: String = "";
-    constructor(inWords: String) {
+    public asterisk: string = "**";
+    public inputString: string;
+    public outputString: string = "";
+    constructor(inWords: string) {
         this.inputString = inWords;
     };
     /**
      * combat key words.
      */
-    private combatKeyWords(notKeyWords) {
+    private combatKeyWords(notKeyWords: string) {
         this.outputString += notKeyWords[0]; // get not repeat word.
     }
     /**
      * replace single key words
      */
-    private replaceSingleKeyWords(combatWords) {
+    private replaceSingleKeyWords(combatWords: string) {
         let outputString = this.outputString;
         combatWords = "*";
         this.outputString += combatWords;
@@ -37,7 +39,7 @@ class AntiKeyWords {
     /**
      * replace and combat key words.
      */
-    private replaceKeyWords(combatWords) {
+    private replaceKeyWords(combatWords: string) {
         let outputString = this.outputString;
         combatWords = this.asterisk;
         this.outputString += combatWords;

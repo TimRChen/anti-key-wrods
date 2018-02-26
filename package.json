@@ -1,6 +1,6 @@
 {
   "name": "anti-key-words",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A TS File to Anti any Dirty Words.",
   "main": "dist/index",
   "typings": "dist/index",
@@ -20,7 +20,7 @@
     "replace key words"
   ],
   "author": "timrchen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TimRChen/anti-key-wrods/issues"
   },
