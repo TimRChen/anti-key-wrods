@@ -1,6 +1,10 @@
 # anti-key-words
 To Anti any Dirty Words(zh/en).
 
+[在线demo点击这里查看](https://timrchen.github.io/demo-item-display/test-anti/dist/)
+
+## version 1.0.3
+* 修复一些已知问题.
 
 ## version 1.0.0
 * 支持多达33个脏词、25个独立脏字的过滤筛选
