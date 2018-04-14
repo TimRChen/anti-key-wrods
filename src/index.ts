@@ -15,7 +15,7 @@ const keywordsConfig = require("../config/keywords.json");
  * @param {String} inputString
  * @param {String} outputString
  */
-class AntiKeyWords {
+export default class AntiKeyWords {
     public asterisk: string = "**";
     public inputString: string;
     public outputString: string = "";
@@ -75,6 +75,3 @@ class AntiKeyWords {
         this.findKeyWords();
     };
 };
-
-
-export default AntiKeyWords;

@@ -3,6 +3,9 @@ To Anti any Dirty Words(zh/en).
 
 [在线demo点击这里查看](https://timrchen.github.io/demo-item-display/test-anti/dist/)
 
+## version 1.0.4
+* 修复打包过程中抛出的异常.
+
 ## version 1.0.3
 * 修复一些已知问题.
 
